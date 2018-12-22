@@ -1,0 +1,64 @@
+1 - Tableau de bord
+2 - Depenses
+3 - Dus 
+4 - Privileges 
+5 - Securiser la connexion Done/Partielle
+    <LinearLayout
+        android:layout_width="398dp"
+        android:layout_height="291dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNbLitre"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="0 Litres vendus pour aujourd'hui"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25sp">
+
+            <TextView
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Pompiste"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+
+                android:text="Pompe"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Carburant"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Montant"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvActivites"
+            android:layout_width="457dp"
+            android:layout_height="243dp"
+            android:layout_marginTop="3dp" />
+
+    </LinearLayout>
+6 - Activites
+
+
